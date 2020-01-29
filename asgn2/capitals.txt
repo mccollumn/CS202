@@ -1,0 +1,2 @@
+S|1|What is the capital of Italy|Rome
+S|1|What is the capital of France|Paris

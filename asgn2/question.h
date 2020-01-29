@@ -1,0 +1,83 @@
+/** ---------------------------------------------
+ *
+ * @file	question.h
+ * @author	Nick McCollum
+ * @version	1.0
+ *
+ * CS-202 - Assignment 2 - Inheritance & Polymorphism
+ *		    Question class definition
+ *
+ * -------------------------------------------- */
+
+#ifndef QUESTION_H
+#define QUESTION_H
+
+#include <string>
+
+using namespace std;
+
+class Question {
+	public:
+		// Default constructor
+		Question(string questionText, string answerText);
+
+		/** ---------------------------------------------
+		 * 	
+		 * showQuestion - Outputs question text
+		 *
+		 * -------------------------------------------- */
+		void showQuestion();
+
+		/** ---------------------------------------------
+		 * 	
+		 * showAnswer - Output answer text
+		 *
+		 * -------------------------------------------- */
+		void showAnswer();
+
+		/** ---------------------------------------------
+		 * 	
+		 * checkAnswer - Checks if given answer is correct,
+		 *				 and marks it accordingly.
+		 *
+		 * @param	The answer input by user
+		 *
+		 * @return 	True if correct, otherwise false 
+		 *
+		 * -------------------------------------------- */
+		bool checkAnswer(string givenAnswer);
+
+		/** ---------------------------------------------
+		 * 	
+		 * markCorrect - Marks an answer correct
+		 *
+		 * -------------------------------------------- */
+		void markCorrect();
+
+	private:
+		string type;
+		int difficulty;
+		string questionText;
+		string answerText;
+		bool correct;
+
+		/** ---------------------------------------------
+		 * 	
+		 * removeWhiteSpace - Removes all whitespace from a string
+		 *
+		 * @param 	The string to modify
+		 *
+		 * -------------------------------------------- */
+		void removeWhitespace(string &str);
+
+		/** ---------------------------------------------
+		 * 	
+		 * toLowerCase - Converts string to lower case
+		 *
+		 * @param 	The string to convert
+		 *
+		 * -------------------------------------------- */
+		void toLowerCase(string &str);
+};
+
+#endif	// QUESTION_H
