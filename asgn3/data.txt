@@ -1,0 +1,22 @@
+S|2|_What is the capital of Italy|Rome
+G|1|_The capital of Germany is Munich|False
+ 	# Comment
+M|1|_What is the capital of Ukraine|Minsk:Kyiv:Warsaw:Chisinau
+T|1|_The capital of Germany is Munich|False|True
+
+	  
+T|1|_The capital of Germany is Munich|False
+S|10|_What is the capital of Italy|Rome
+S||_What is the capital of Italy|Rome
+S|2|_What is the capital of Italy|
+S|2|_What is the capital of Italy
+ M	|1|_What is the capital of Ukraine|Minsk:Kyiv:Warsaw:Chisinau|b
+M|	1 |_What is the capital of Ukraine|Minsk:Kyiv:Warsaw:Chisinau|b
+M|1|_What is the capital of Ukraine|Minsk:Kyiv:Warsaw:Chisinau|bB
+M|1|_What is the capital of Ukraine|Minsk|b
+M|1|_What is the capital of Ukraine||b
+M|1|_What is the capital of Ukraine|Minsk:Kyiv:Warsaw:Chisinau|E
+T|1|_The capital of Germany is Munich|Fase
+T|1|_The capital of Germany is Munich|
+M|1|_What is the capital of Ukraine|Minsk:Kyiv:Warsaw:Chisinau|False
+M|1;_What is the capital of Ukraine|Minsk:Kyiv:Warsaw:Chisinau|False
