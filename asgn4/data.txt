@@ -1,0 +1,26 @@
+#this is a comment
+//is is a different type of comment
+
+  	
+SA|2|What is the capital of Italy
+SA|2|What is the capital of Italy|
+SA|2|What is the capital of Italy|Rome
+ sa|2|What is the capital of Italy|Rome
+SAS|2|What is the capital of Italy|Rome
+TF|-1|The capital of Germany is Munich|False
+TF|X|The capital of Germany is Munich|False
+TF|1|The capital of Germany is Munich|False
+TF|1|The capital of Germany is Munich|	False
+TF|1|The capital of Germany is Munich|Foo
+MC|1|What is the capital of Ukraine|Minsk:Kyiv:Warsaw:Chisinau|B
+MC|1|What is the capital of Ukraine|Minsk:Kyiv:Warsaw:Chisinau|BC
+MC|1|What is the capital of Ukraine|Minsk|A
+MC|1|What is the capital of Ukraine|Minsk:Kyiv|C
+MC|1|What is the capital of Ukraine|Minsk:Kyiv|CD
+MC|1|What is the capital of Ukraine|Minsk|B
+MA|1|Which of these border the Atlantic?|Maine:Kansas:Georgia:Utah|AC
+MA|1|Which of these border the Atlantic?|Maine:Kansas:Georgia:Utah|ACDEFG
+MA|1|Which of these border the Atlantic?|Maine:Kansas:Georgia:Utah|A
+MA|1|Which of these border the Atlantic?|Maine:Kansas:Georgia:Utah|F
+MA|1|Which of these border the Atlantic?|Maine|AC
+kPT#6k2jK*yG
