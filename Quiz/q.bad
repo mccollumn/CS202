@@ -1,0 +1,30 @@
+# quiz3 test data - all bad questions 
+# blank line tests (0 length, spaces, tabs)
+
+     
+				
+#bad question code
+Z|2|What is the capital of Italy|Rome
+
+#invalid level#
+SA|42|What is the capital of Italy|Rome
+
+#too many fields
+SA|2|What is the capital of Italy|Rome|too much data
+TF|1|The capital of Germany is Munich|False|too much data
+MC|1|What is the capital of Ukraine|Minsk:Kyiv:Warsaw:Chisinau|B|too much data
+
+#not enough fields
+SA|2|What is the capital of Italy
+TF|1|The capital of Germany is Munich
+MC|1|What is the capital of Ukraine|Minsk:Kyiv:Warsaw:Chisinau
+
+#invalid MC answer separator
+MC|1|What is the capital of Ukraine|Minsk;Kyiv;Warsaw;Chisinau|B
+
+#invalid MC answer 
+MC|1|What is the capital of Ukraine|Minsk:Kyiv:Warsaw:Chisinau|E
+
+#random gibberish
+aslkdfj;laskjfd;sajf;lfjlkasfjlsafj lksalsdfj al;sfjl;af l;safjk;
+
